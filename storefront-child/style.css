@@ -1,0 +1,53 @@
+/*Theme Name: Storefront-child
+Theme URI:    https://woocommerce.com/products/storefront/
+Author:       Automattic
+Author URI:   https://woocommerce.com/
+Description:  Storefront child theme
+Version:      0.1
+License:      GNU General Public License v3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain:  storefront-child
+Template: 	  Storefront
+Tags:         e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options, editor-style
+*/
+
+.load-spin, .resultswidg, .centerwidg, .widget_weather_widget {
+	text-align: left;
+}
+.load-spin img {
+	max-width: 80px !important;
+}
+
+.countries-widg {
+	margin-bottom: 25px;
+}
+.search.row {
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+}
+#cityselect_s {
+  margin-left: 15px;
+}
+@media(max-width: 500px){
+	.filter.row {
+		display:none;
+	}
+
+	.ajax-citys.row {
+	  text-align: center;
+	  font-size: 18px !important;
+	}
+	.ajax-citys.row .option {
+	  margin-top: 3px;
+	}
+
+	.ajax-citys.row .option.one {
+	  padding-top: 3px;
+	  border-top: 2px solid lightgray;
+	}
+	.ajax-citys.row .option.four {
+	  padding-bottom: 3px;
+	}
+
+}
